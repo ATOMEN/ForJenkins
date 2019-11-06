@@ -15,4 +15,10 @@ pipeline {
          }
       }
    }
+   post
+   {
+      always {
+         echo 'Post activity run.'
+      }
+   }
 }
